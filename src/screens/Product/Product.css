@@ -1,0 +1,18 @@
+*{padding:0px;margin:0px;box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,700&display=swap');
+.container{width: 100%;float: left;padding-top: 40px;font-family: 'Roboto', sans-serif;}
+.main{width: 1250px;margin: auto;}
+.outer{width: 100%;float: left;background-color: #e7f5ea;}
+img{max-width: 100%;}
+
+.inner-item{width: 100%;float: left;}
+.title span{font-size: 20px;text-transform: capitalize;font-weight: 700;}
+.title{font-size: 16px;font-weight: 500;padding-top: 20px;}
+.price span,.rate span{font-weight: 700;font-size: 18px;text-transform: capitalize;}
+.price,.rate{font-size: 15px;display: inline-block;padding-top: 15px;color: red;}
+.rate{float:right;}
+.desc{width: 1005;float: left;}
+.desc p{font-size: 15px;line-height: 1.5;padding-top: 10px;text-align: justify;color: #68027a;}
+.in-item img {height: 400px;width: auto;}
+.in-item{width: 31%;float: left;background-color: white;margin: 15px 15px 0 0;padding: 15px;border-radius: 5px;min-height: 900px;}
+.in-item:hover{box-shadow: 3px 4px 25px 5px #c6c6c6;transition: .8s linear;cursor: pointer;}
